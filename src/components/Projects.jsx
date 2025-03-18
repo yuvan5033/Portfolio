@@ -4,53 +4,60 @@ import { Parallax } from 'react-scroll-parallax';
 
 const projects = [
   {
+    title: 'The Imitation Game',
+    status: 'complete',
+    description: 'A web app based game which is built with close collaporation with Paari School of Business, SRM AP and Sri Jishnu Communications to demonstrate the affect of gamification on consumer behaviour',
+    tech: ['React.js', 'Supabase', 'TailwindCSS', 'vite'],
+    gradient: 'from-gray-700 to-gray-800'    
+  },
+  {
     title: 'Hydro Harvesters',
     status: 'Ongoing',
     description: 'IoT-based hydroponics automation system using raspberry pi, ESP32 and ML',
     tech: ['Raspberry pi', 'IoT', 'C++', 'MQTT', 'Python', 'React-native'],
-    gradient: 'from-blue-500 to-indigo-500'
+    gradient: 'from-gray-700 to-gray-800'
   },
   {
     title: 'TracknGo',
     status: 'Ongoing',
     description: 'Bus surviellance & live tracking system with ML based occupancy detection',
     tech: ['Python', 'c++', 'React-Native', 'I2c', 'Spi', 'postgreSQL'],
-    gradient: 'from-indigo-500 to-purple-500'
+    gradient: 'from-gray-700 to-gray-800'
   },
   {
     title: 'Velocity Cars',
     status: 'complete',
     description: 'Used cars market place for premium and high standard dealers',
     tech: ['Flutter', 'Firebase', 'Supabase', "OAuth"],
-    gradient: 'from-purple-500 to-pink-500'
+    gradient: 'from-gray-700 to-gray-800'
   },
   {
     title: 'GroFx® App',
     status: 'Ongoing',
     description: 'Smart grocery shopping application with indoor naviation and product promotions',
     tech: ['React-native', 'OAuth2.0', 'Supabase', "PostgreSQL"],
-    gradient: 'from-purple-500 to-pink-500'
+    gradient: 'from-gray-700 to-gray-800'
   },
   {
     title: 'Smart Billing system',
     status: 'Ongoing',
     description: 'Smart grocery billing application with admin dashboard powered by AI driven analytics',
     tech: ['Python', 'flask', 'PyQt5', "React", "postgreSQL", "Machine learning"],
-    gradient: 'from-purple-500 to-pink-500'
+    gradient: 'from-gray-700 to-gray-800'
   },
   {
     title: 'GroFx® Display',
     status: 'Ongoing',
     description: 'Smart E-ink displays for product info and dynamic pricing',
     tech: ['Esp32', 'SPI', 'embedded c', "Zigbee", "PCB Design"],
-    gradient: 'from-purple-500 to-pink-500'
+    gradient: 'from-gray-700 to-gray-800'
   },
   {
     title: 'Navira',
     status: 'Ongoing',
     description: 'In-house navigation engine for indoor navigation such as airports and malls',
     tech: ['Esp32', 'SPI', 'embedded c', "Zigbee", "PCB Design"],
-    gradient: 'from-purple-500 to-pink-500'
+    gradient: 'from-gray-700 to-gray-800'
   },
   
 ];

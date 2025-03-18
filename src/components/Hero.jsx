@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div ref={containerRef} className="relative h-screen overflow-hidden">
       {/* Gradient Overlay with Moving Animation */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-transparent animate-gradient" />
+      <div className="absolute inset-0" />
       
       {/* Main Content */}
       <div className="relative h-full py-10">
@@ -48,7 +48,7 @@ const Hero = () => {
                   >
                     Yuvan <br />
                     <span className="bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                      .Reddy
+                      Reddy
                     </span>
                   </motion.h1>
                 </div>
@@ -70,7 +70,7 @@ const Hero = () => {
                 className="flex flex-wrap gap-6"
               >
                 <a 
-                  href="https://drive.google.com/file/d/1DIoZRUqN4N647VvIs4MGC_I3Md-7TK3y/view?usp=sharing" 
+                  href="https://docs.google.com/document/d/1c5ObfwVwWAxV3JfrDWYghS_ZRZ2KWu2I/edit?usp=drivesdk&ouid=118245395574903120529&rtpof=true&sd=true" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
@@ -101,7 +101,7 @@ const Hero = () => {
                   <div className="relative aspect-square rounded-3xl overflow-hidden bg-gradient-to-br from-indigo-500 to-purple-600 p-1 max-h-[40vh]">
                     <div className="absolute inset-0 bg-gradient-to-br from-black to-gray-900 rounded-3xl" />
                     <img
-                      src="/main.png"
+                      src="/main.jpg"
                       alt="Yuvan Reddy"
                       className="relative w-full h-full object-cover rounded-3xl"
                     />
